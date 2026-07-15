@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+    color:#222;
+    transition:.4s;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav button{
+    margin:10px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+section{
+    width:80%;
+    margin:25px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card{
+    background:#eee;
+    margin:10px 0;
+    padding:15px;
+    border-radius:8px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+textarea{
+    height:120px;
+}
+
+form button{
+    margin-top:15px;
+    padding:10px 20px;
+}
+
+small{
+    color:red;
+    display:block;
+    margin-bottom:10px;
+}
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark section{
+    background:#333;
+}
+
+.dark .card{
+    background:#555;
+}
+
+.dark header{
+    background:#111;
+}

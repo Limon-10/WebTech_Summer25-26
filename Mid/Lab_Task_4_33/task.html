@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+
+    <button id="themeBtn">🌙 Dark Mode</button>
+
+    <h2 id="greeting"></h2>
+
+    <nav>
+        <button>About</button>
+        <button>Projects</button>
+        <button>Contact</button>
+    </nav>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I am a learning HTML, CSS, and JavaScript.
+    </p>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Log in Page</h3>
+        <p>using HTML, CSS & JavaScript.</p>
+    </div>
+
+    <div class="card">
+        <h3>Dark Light Theme</h3>
+        <p>Theme Change.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+
+    <form id="contactForm">
+
+        <input type="text" id="name" placeholder="Your Name">
+        <small id="nameError"></small>
+
+        <input type="email" id="email" placeholder="Your Email">
+        <small id="emailError"></small>
+
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <small id="messageError"></small>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</section>
+
+<script src="task.js"></script>
+
+</body>
+</html>
