@@ -243,3 +243,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($errors)) {
 
 </body>
 </html>
+<?php
+/*
+1. htmlspecialchars() is used to safely display user input by converting special characters into HTML entities, helping prevent XSS attacks.
+2. Server-side validation is necessary because HTML validation can be bypassed or disabled by the user.
+3. It ensures that invalid or malicious data cannot reach the server or database.
+4. For example, a **password confirmation** field should be checked for matching values before checking other password rules.
+5. Therefore, server-side validation provides reliable and secure input checking.
+*/
+?>
